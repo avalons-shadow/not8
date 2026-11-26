@@ -1,6 +1,12 @@
 {
-  "name": "common",
+  "name": "note8-common",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.0"
+  }
 }
